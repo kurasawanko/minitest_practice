@@ -9,6 +9,13 @@ module MinitestPractice
         return true
       end
     end
+
+    def check_number?(n)
+      if 0 == n
+       return false
+      end
+      return true
+    end
   end
 end
 

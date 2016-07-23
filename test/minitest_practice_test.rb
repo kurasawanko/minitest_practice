@@ -17,4 +17,7 @@ class MinitestPracticeTest < Minitest::Test
     assert @main.odd?(5), '5 is odd'
   end
 
+  def test_that_if_not0_lessthan10000_even_return_true
+    refute @main.check_number?(0), '0 is not meet the conditions'
+  end 
 end
