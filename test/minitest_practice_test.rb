@@ -17,7 +17,4 @@ class MinitestPracticeTest < Minitest::Test
     assert @main.odd?(5), '5 is odd'
   end
 
-  def test_
-    skip 
-  end
 end
